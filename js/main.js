@@ -115,6 +115,9 @@ if (typeof APPS !== "undefined") {
   renderStores();
   renderCatalog();
 }
+document.querySelectorAll("[data-year]").forEach((node) => {
+  node.textContent = String(new Date().getFullYear());
+});
 paintStars();
 bindNav();
 bindGameplay();

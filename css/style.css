@@ -490,6 +490,11 @@ a.app-card:focus-visible {
   margin: 6px 0 0;
 }
 
+.copyright {
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .site-footer a {
   align-self: center;
   color: #9fd7ff;
